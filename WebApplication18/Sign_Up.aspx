@@ -24,13 +24,14 @@
         }
         .auto-style6 {
             height: 60px;
-            width: 269px;
+            width: 179px;
         }
-    </style>
+        </style>
 </head>
 <body style="background-color:#FFF3E2">
     
     <form id="form1" runat="server">
+        </br>
         <div style="font-family: Arial; font-size: 48px; color: #FF9900; text-align: center; text-transform: uppercase; font-weight: bold; top: 40px; position: relative;">
             CHEF MANAGEMENT</div>
         
@@ -45,8 +46,12 @@
             <td class="auto-style6">
                 <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox9" ErrorMessage="Enter email address!!" ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
             </td>
-            <td class="auto-style4"></td>
-            <td class="auto-style4"></td>
+            <td rowspan="4" class="auto-style4">
+                <span style="font-size:12px;">
+        <a href="https://www.SnapHost.com/captcha/ProCaptchaOverview.aspx">
+        <a href="#" onclick="return ReloadCaptchaImage('CaptchaImage');">reload image</a></a></span><br />
+        <a href="https://www.SnapHost.com/captcha/ProCaptchaOverview.aspx"><img id="CaptchaImage" alt="Web Form Code" style="border-width:0px;" src="https://www.SnapHost.com/captcha/CaptchaImage.aspx?id=DEMO12345678" class="auto-style10"></a><br />
+                    &nbsp;<td class="auto-style4"></td>
         </tr>
         <tr>
             <td class="auto-style3" style="text-align: center">Password</td>
@@ -63,9 +68,10 @@
                 <asp:TextBox ID="TextBox7" runat="server" Width="299px" TextMode="Password"></asp:TextBox>
             </td>
             <td class="auto-style6">
-                <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="TextBox8" ControlToValidate="TextBox7" ErrorMessage="Password not match!!" ForeColor="Red"></asp:CompareValidator>
+                <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="TextBox8" ControlToValidate="TextBox7" ErrorMessage="Password does not matched!!" ForeColor="Red"></asp:CompareValidator>
             </td>
-            <td class="auto-style4"></td>
+            <td class="auto-style4">
+                &nbsp;</td>
             <td class="auto-style4"></td>
         </tr>
         <tr>
@@ -76,7 +82,8 @@
             <td class="auto-style6">
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox6" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
             </td>
-            <td class="auto-style4"></td>
+            <td class="auto-style4">
+                &nbsp;</td>
             <td class="auto-style4"></td>
         </tr>
         <tr>
@@ -87,25 +94,31 @@
             <td class="auto-style6">
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox5" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
             </td>
-            <td class="auto-style4"></td>
+            <td class="auto-style4">
+                <asp:Button ID="Button1" runat="server" BackColor="#FF9900" ForeColor="White" Height="43px" PostBackUrl="~/WebForm2.aspx" Text="Sign Up" Width="119px" />
+            </td>
             <td class="auto-style4"></td>
         </tr>
         <tr>
             <td class="auto-style3" style="text-align: center">Date of Birth</td>
             <td class="auto-style5">
-                <asp:Calendar ID="Calendar1" runat="server" BackColor="#FFFFCC" BorderColor="#FFCC66" BorderWidth="1px" DayNameFormat="Shortest" Font-Names="Verdana" Font-Size="8pt" ForeColor="#663399" Height="200px" ShowGridLines="True" Width="220px">
-                    <DayHeaderStyle BackColor="#FFCC66" Font-Bold="True" Height="1px" />
-                    <NextPrevStyle Font-Size="9pt" ForeColor="#FFFFCC" />
-                    <OtherMonthDayStyle ForeColor="#CC9966" />
-                    <SelectedDayStyle BackColor="#CCCCFF" Font-Bold="True" />
-                    <SelectorStyle BackColor="#FFCC66" />
-                    <TitleStyle BackColor="#990000" Font-Bold="True" Font-Size="9pt" ForeColor="#FFFFCC" />
-                    <TodayDayStyle BackColor="#FFCC66" ForeColor="White" />
-                </asp:Calendar>
+                <asp:TextBox ID="TextBox10" runat="server" TextMode="Date" Width="299px"></asp:TextBox>
             </td>
             <td class="auto-style6"></td>
+            <td class="auto-style4">
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
+            </td>
             <td class="auto-style4"></td>
-            <td class="auto-style4"></td>
+        </tr>
+        <tr>
+            <td class="auto-style3" style="text-align: center">Phone Number</td>
+            <td class="auto-style5">
+                <asp:TextBox ID="TextBox11" runat="server" Width="299px"></asp:TextBox>
+            </td>
+            <td class="auto-style6">&nbsp;</td>
+            <td class="auto-style4">
+                &nbsp;</td>
+            <td class="auto-style4">&nbsp;</td>
         </tr>
     </table>
 
