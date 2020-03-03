@@ -4,8 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+<<<<<<< HEAD
 using System.Data.SqlClient;
 using System.Data;
+=======
+>>>>>>> ec4fe5b7d8da71e29f7fb2ad4801cdbe0f0fe0da
 
 namespace WebApplication18
 {
@@ -17,6 +20,7 @@ namespace WebApplication18
 
         }
 
+<<<<<<< HEAD
 
 
 
@@ -122,3 +126,16 @@ namespace WebApplication18
     }
 }
 
+=======
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+           
+        }
+    }
+}
+>>>>>>> ec4fe5b7d8da71e29f7fb2ad4801cdbe0f0fe0da

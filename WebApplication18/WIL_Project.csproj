@@ -120,9 +120,15 @@
     <Content Include="About.aspx" />
     <Content Include="access_request.aspx" />
     <Content Include="Addmin_Add.aspx" />
+<<<<<<< HEAD:WebApplication18/WIL_Project.csproj
     <Content Include="admin_edit.aspx" />
     <Content Include="Administrator_Profile.aspx" />
     <Content Include="admin_user_page.aspx" />
+=======
+    <Content Include="admin_user.aspx" />
+    <Content Include="Addmin_Edit.aspx" />
+    <Content Include="Administrator_Profile.aspx" />
+>>>>>>> ec4fe5b7d8da71e29f7fb2ad4801cdbe0f0fe0da:WebApplication18/WIL_Project.csproj
     <Content Include="App_Data\Database1.mdf" />
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
@@ -148,9 +154,14 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+<<<<<<< HEAD:WebApplication18/WIL_Project.csproj
     <Content Include="registr.aspx" />
     <Content Include="Regular_User.aspx" />
     <Content Include="signup.aspx" />
+=======
+    <Content Include="Regular_User.aspx" />
+    <Content Include="Sign_Up.aspx" />
+>>>>>>> ec4fe5b7d8da71e29f7fb2ad4801cdbe0f0fe0da:WebApplication18/WIL_Project.csproj
     <Content Include="Sign_In.aspx" />
     <Content Include="Regular_Profile.aspx" />
     <Content Include="Administrator_welcome.aspx" />
@@ -204,12 +215,28 @@
     <Compile Include="Addmin_Add.aspx.designer.cs">
       <DependentUpon>Addmin_Add.aspx</DependentUpon>
     </Compile>
+<<<<<<< HEAD:WebApplication18/WIL_Project.csproj
     <Compile Include="admin_edit.aspx.cs">
       <DependentUpon>admin_edit.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="admin_edit.aspx.designer.cs">
       <DependentUpon>admin_edit.aspx</DependentUpon>
+=======
+    <Compile Include="admin_user.aspx.cs">
+      <DependentUpon>admin_user.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_user.aspx.designer.cs">
+      <DependentUpon>admin_user.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Addmin_Edit.aspx.cs">
+      <DependentUpon>Addmin_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Addmin_Edit.aspx.designer.cs">
+      <DependentUpon>Addmin_Edit.aspx</DependentUpon>
+>>>>>>> ec4fe5b7d8da71e29f7fb2ad4801cdbe0f0fe0da:WebApplication18/WIL_Project.csproj
     </Compile>
     <Compile Include="Administrator_Profile.aspx.cs">
       <DependentUpon>Administrator_Profile.aspx</DependentUpon>
@@ -218,6 +245,7 @@
     <Compile Include="Administrator_Profile.aspx.designer.cs">
       <DependentUpon>Administrator_Profile.aspx</DependentUpon>
     </Compile>
+<<<<<<< HEAD:WebApplication18/WIL_Project.csproj
     <Compile Include="admin_user_page.aspx.cs">
       <DependentUpon>admin_user_page.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -225,6 +253,8 @@
     <Compile Include="admin_user_page.aspx.designer.cs">
       <DependentUpon>admin_user_page.aspx</DependentUpon>
     </Compile>
+=======
+>>>>>>> ec4fe5b7d8da71e29f7fb2ad4801cdbe0f0fe0da:WebApplication18/WIL_Project.csproj
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -273,6 +303,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD:WebApplication18/WIL_Project.csproj
     <Compile Include="registr.aspx.cs">
       <DependentUpon>registr.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -280,6 +311,8 @@
     <Compile Include="registr.aspx.designer.cs">
       <DependentUpon>registr.aspx</DependentUpon>
     </Compile>
+=======
+>>>>>>> ec4fe5b7d8da71e29f7fb2ad4801cdbe0f0fe0da:WebApplication18/WIL_Project.csproj
     <Compile Include="Regular_User.aspx.cs">
       <DependentUpon>Regular_User.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -287,6 +320,7 @@
     <Compile Include="Regular_User.aspx.designer.cs">
       <DependentUpon>Regular_User.aspx</DependentUpon>
     </Compile>
+<<<<<<< HEAD:WebApplication18/WIL_Project.csproj
     <Compile Include="signup.aspx.cs">
       <DependentUpon>signup.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -294,6 +328,8 @@
     <Compile Include="signup.aspx.designer.cs">
       <DependentUpon>signup.aspx</DependentUpon>
     </Compile>
+=======
+>>>>>>> ec4fe5b7d8da71e29f7fb2ad4801cdbe0f0fe0da:WebApplication18/WIL_Project.csproj
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -315,10 +351,24 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
+<<<<<<< HEAD:WebApplication18/WIL_Project.csproj
     <Compile Include="Sign_In.aspx.cs">
       <DependentUpon>Sign_In.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+=======
+    <Compile Include="Sign_Up.aspx.cs">
+      <DependentUpon>Sign_Up.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sign_Up.aspx.designer.cs">
+      <DependentUpon>Sign_Up.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sign_In.aspx.cs">
+      <DependentUpon>Sign_In.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+>>>>>>> ec4fe5b7d8da71e29f7fb2ad4801cdbe0f0fe0da:WebApplication18/WIL_Project.csproj
     <Compile Include="Sign_In.aspx.designer.cs">
       <DependentUpon>Sign_In.aspx</DependentUpon>
     </Compile>

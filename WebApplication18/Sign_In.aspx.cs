@@ -4,13 +4,17 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+<<<<<<< HEAD
 using System.Data;
 using System.Data.SqlClient;
+=======
+>>>>>>> ec4fe5b7d8da71e29f7fb2ad4801cdbe0f0fe0da
 
 namespace WebApplication18
 {
     public partial class WebForm2 : System.Web.UI.Page
     {
+<<<<<<< HEAD
         public string cnstring = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Database1.mdf;Integrated Security=True";
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -57,13 +61,26 @@ namespace WebApplication18
             }
 
         protected void Button2_Click(object sender, EventArgs e)
+=======
+        public string c = "Data Source = (LocalDB)/MSSQLLocalDB;AttachDbFilename=|DataDirectory|/Database1.mdf;Integrated Security = True";
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+>>>>>>> ec4fe5b7d8da71e29f7fb2ad4801cdbe0f0fe0da
         {
 
         }
     }
+<<<<<<< HEAD
 
        
     }
 
 
        
+=======
+}
+>>>>>>> ec4fe5b7d8da71e29f7fb2ad4801cdbe0f0fe0da

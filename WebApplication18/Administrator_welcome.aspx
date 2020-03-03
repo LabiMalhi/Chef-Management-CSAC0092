@@ -19,7 +19,11 @@
             <br />
             <asp:Button ID="Button6" runat="server" BackColor="#FF9900" ForeColor="White"  Height="45px" Text="Profile" Width="130px" PostBackUrl="~/Administrator_Profile.aspx" />
             <br />
+<<<<<<< HEAD
             <asp:Button ID="Button1" runat="server" BackColor="#FF9900" ForeColor="White"  Height="45px" Text="Users" Width="130px" PostBackUrl="~/admin_user_page.aspx" />
+=======
+            <asp:Button ID="Button1" runat="server" BackColor="#FF9900" ForeColor="White"  Height="45px" Text="Users" Width="130px" PostBackUrl="~/admin_user.aspx" />
+>>>>>>> ec4fe5b7d8da71e29f7fb2ad4801cdbe0f0fe0da
             <br />
             <asp:Button ID="Button3" runat="server" BackColor="#FF9900" ForeColor="White"  Height="45px" Text="Access Requests" Width="130px" PostBackUrl="~/access_request.aspx" />
         <h1 align="center">

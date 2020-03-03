@@ -42,6 +42,7 @@ namespace WebApplication18
         protected global::System.Web.UI.WebControls.TextBox TextBox8;
 
         /// <summary>
+<<<<<<< HEAD
         /// SqlDataSource1 control.
         /// </summary>
         /// <remarks>
@@ -51,6 +52,8 @@ namespace WebApplication18
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
 
         /// <summary>
+=======
+>>>>>>> ec4fe5b7d8da71e29f7fb2ad4801cdbe0f0fe0da
         /// Button1 control.
         /// </summary>
         /// <remarks>
@@ -67,6 +70,7 @@ namespace WebApplication18
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button2;
+<<<<<<< HEAD
 
         /// <summary>
         /// Label1 control.
@@ -76,5 +80,7 @@ namespace WebApplication18
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label1;
+=======
+>>>>>>> ec4fe5b7d8da71e29f7fb2ad4801cdbe0f0fe0da
     }
 }

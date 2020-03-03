@@ -81,11 +81,19 @@
                         
                           <asp:Button ID="Button2" runat="server" BackColor="#FF9900" ForeColor="White" Height="45px" Text="Welcome" Width="130px" PostBackUrl="~/Administrator_welcome.aspx" />
             <br />
+<<<<<<< HEAD
             <asp:Button ID="Button6" runat="server"  BackColor="#FFF3E2" Height="45px" Text="Profile" Width="130px" PostBackUrl="~/Administrator_Profile.aspx" />
             <br />
             <asp:Button ID="Button1" runat="server" BackColor="#FF9900" ForeColor="White"  Height="45px" Text="Users" Width="130px" PostBackUrl="~/admin_user.aspx" />
             <br />
             <asp:Button ID="Button3" runat="server" BackColor="#FF9900" ForeColor="White"  Height="45px" Text="Access Requests" Width="130px" PostBackUrl="~/access_request.aspx" />
+=======
+            <asp:Button ID="Button6" runat="server"  BackColor="#FF9900" Height="45px" Text="Profile" Width="130px" PostBackUrl="~/Administrator_Profile.aspx" ForeColor="White" />
+            <br />
+            <asp:Button ID="Button1" runat="server" BackColor="#FF9900" ForeColor="White"  Height="45px" Text="Users" Width="130px" PostBackUrl="~/admin_user.aspx" />
+            <br />
+            <asp:Button ID="Button3" runat="server" BackColor="#FFF3E2" ForeColor="Black"  Height="45px" Text="Access Requests" Width="130px" PostBackUrl="~/access_request.aspx" />
+>>>>>>> ec4fe5b7d8da71e29f7fb2ad4801cdbe0f0fe0da
                         
                     </td>
                    

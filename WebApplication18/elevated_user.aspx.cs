@@ -18,10 +18,13 @@ namespace WebApplication18
         {
 
         }
+<<<<<<< HEAD
 
         protected void c1_CheckedChanged(object sender, EventArgs e)
         {
 
         }
+=======
+>>>>>>> ec4fe5b7d8da71e29f7fb2ad4801cdbe0f0fe0da
     }
 }

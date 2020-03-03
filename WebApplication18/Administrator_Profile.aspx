@@ -38,7 +38,11 @@
                 <td align="right" class="auto-style2">
                      <asp:Button ID="Button8" runat="server" Text="Add User" BackColor="#0066FF" ForeColor="White" PostBackUrl="~/Addmin_Add.aspx" /></td>
                 <td align="center">
+<<<<<<< HEAD
             <asp:Button ID="Button9" runat="server" Text="Edit User" BackColor="#0066FF" ForeColor="White" PostBackUrl="~/admin_edit.aspx" /></td>
+=======
+            <asp:Button ID="Button9" runat="server" Text="Edit User" BackColor="#0066FF" ForeColor="White" PostBackUrl="~/Addmin_Edit.aspx" /></td>
+>>>>>>> ec4fe5b7d8da71e29f7fb2ad4801cdbe0f0fe0da
             </tr>
         </table>
     </form>

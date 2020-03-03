@@ -33,10 +33,13 @@
         .auto-style25 {
             width: 667px;
         }
+<<<<<<< HEAD
         .auto-style26 {
             width: 667px;
             text-align: right;
         }
+=======
+>>>>>>> ec4fe5b7d8da71e29f7fb2ad4801cdbe0f0fe0da
         </style>
 </head>
 <body style="background-color:#FFF3E2">
@@ -67,9 +70,13 @@
                 <asp:TextBox ID="TextBox8" runat="server" Width="299px" TextMode="Password" Height="34px"></asp:TextBox>
             </td>
             <td class="auto-style19"></td>
+<<<<<<< HEAD
             <td class="auto-style19">
                 <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
             </td>
+=======
+            <td class="auto-style19"></td>
+>>>>>>> ec4fe5b7d8da71e29f7fb2ad4801cdbe0f0fe0da
         </tr>
   
         </table>
@@ -81,6 +88,7 @@
                     <asp:Button ID="Button1" runat="server" Height="48px" OnClick="Button1_Click" Text="Log In" Width="101px" BackColor="#FF9900" ForeColor="White" />
                 </td>
                 <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<<<<<<< HEAD
                     <asp:Button ID="Button2" runat="server" Height="48px" PostBackUrl="~/signup.aspx" Text="Sign Up" Width="101px" BackColor="#FF9900" ForeColor="White" OnClick="Button2_Click" />
                 </td>
             </tr>
@@ -93,6 +101,10 @@
                     <asp:Label ID="Label1" runat="server"></asp:Label>
                 </td>
                 <td>&nbsp;</td>
+=======
+                    <asp:Button ID="Button2" runat="server" Height="48px" PostBackUrl="~/Sign_Up.aspx" Text="Sign Up" Width="101px" BackColor="#FF9900" ForeColor="White" />
+                </td>
+>>>>>>> ec4fe5b7d8da71e29f7fb2ad4801cdbe0f0fe0da
             </tr>
         </table>
 
